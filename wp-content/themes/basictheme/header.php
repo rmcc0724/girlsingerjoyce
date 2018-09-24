@@ -42,5 +42,5 @@
 </div>
 </div>
 <img id="main-photo" class="d-none d-md-block" src="/wp-content/uploads/2018/06/Joyce_about-200x300.jpg" alt="Joyce McCulloch"/></p>
-</div>
+</div> 
 </div>
