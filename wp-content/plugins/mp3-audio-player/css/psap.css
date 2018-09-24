@@ -1,0 +1,225 @@
+.psap_example {
+margin: 50px auto 0;
+width: 400px;
+}
+.psap_player {
+height: 162px;
+position: relative;
+width: 326px;
+z-index: 2;
+}
+.psap_title, .psap_artist {
+font-family: verdana;
+left: 167px;
+position: absolute;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+.psap_title {
+color: #FFFFFF;
+font-size: 10pt;
+font-weight: bold;
+top: 23px;
+}
+
+.psap_title.psap_light{
+color: #404040;
+}
+
+.psap_artist {
+color: #EEEEEE;
+font-size: 9pt;
+top: 40px;
+}
+
+.psap_artist.psap_light{
+color: #7F7F7F;
+}
+
+.psap_pl {
+cursor: pointer;
+height: 34px;
+left: 270px;
+position: absolute;
+top: 20px;
+width: 32px;
+}
+.psap_pl:hover {
+top: 21px;
+}
+.psap_cover {
+border-radius: 5px 5px 5px 5px;
+height: 94px;
+left: 20px;
+position: absolute;
+top: 20px;
+width: 94px;
+background-size: cover;
+}
+.psap_controls {
+cursor: pointer;
+height: 23px;
+left: 167px;
+position: absolute;
+top: 65px;
+width: 138px;
+}
+.psap_controls .psap_play, .psap_controls .psap_pause, .psap_controls .psap_rew, .psap_controls .psap_fwd {
+float: left;
+height: 100%;
+width: 33%;
+}
+.psap_controls .psap_play {
+background-position: -8px -171px;
+}
+.psap_controls .psap_pause {
+background-position: -8px -198px;
+display: none;
+}
+.psap_controls .psap_rew {
+background-position: -54px -171px;
+}
+.psap_controls .psap_fwd {
+background-position: -100px -171px;
+}
+.psap_controls .psap_play:hover {
+background-position: -8px -170px;
+}
+.psap_controls .psap_pause:hover {
+background-position: -8px -197px;
+}
+.psap_controls .psap_rew:hover {
+background-position: -54px -170px;
+}
+.psap_controls .psap_fwd:hover {
+background-position: -100px -170px;
+}
+.psap_hidden {
+display: none;
+}
+.psap_controls .psap_visible {
+display: block;
+}
+.psap_volume {
+height: 11px;
+left: 186px;
+position: absolute;
+top: 96px;
+width: 112px;
+}
+.psap_tracker {
+height: 15px;
+left: 20px;
+position: absolute;
+top: 126px;
+width: 285px;
+}
+.ui-slider-range {
+background: transparent url("../img/standard.png") no-repeat scroll 5px -222px;
+height: 100%;
+position: absolute;
+top: 0;
+}
+.ui-slider-handle {
+cursor: pointer;
+height: 10px;
+margin-left: -5px;
+position: absolute;
+top: 2px;
+width: 10px;
+z-index: 2;
+}
+.psap_volume .ui-slider-handle {
+background: url("../img/standard.png") no-repeat scroll -201px -188px rgba(0, 0, 0, 0);
+height: 13px;
+width: 13px;
+}
+.psap_playlist {
+border-radius: 5px 5px 5px 5px;
+list-style-type: none;
+margin: -10px 0 0 2px;
+padding-bottom: 10px;
+padding-top: 15px;
+position: relative;
+width: 326px;
+z-index: 1;
+}
+
+.psap_playlist.psap_layout_1 {
+background-color: #333333;
+}
+.psap_playlist.psap_layout_2 {
+background-color: #737373;
+}
+.psap_playlist.psap_layout_3 {
+background-color: #B5B5B5;
+}
+.psap_playlist.psap_layout_4 {
+background-color: #1F611F;
+}
+.psap_playlist.psap_layout_5 {
+background-color: #611F1F;
+}
+.psap_playlist.psap_layout_6 {
+background-color: #202062;
+}
+.psap_playlist.psap_layout_7 {
+background-color: #4A4A12;
+}
+.psap_playlist.psap_layout_8 {
+background-color: #491149;
+}
+.psap_playlist.psap_layout_9 {
+background-color: #114949;
+}
+
+.psap_playlist li {
+color: #EEEEEE;
+cursor: pointer;
+margin: 0 0 5px 15px;
+font-size:11pt;
+}
+.psap_playlist li.active {
+font-weight: bold;
+}
+
+.psap_background{
+	position:fixed;
+	top:100px;
+	right:100px;
+}
+
+.psap_background_play{
+	margin-right:20px;
+	font-size:15pt;
+	padding: 5px 10px;
+	height: 21px;
+	width: 20px;
+	border-radius: 2px;
+	cursor:pointer;
+}
+
+.psap_background_pause{
+	font-size:15pt;
+	padding: 5px 10px;
+	height: 21px;
+	width: 20px;
+	border-radius: 2px;
+	cursor:pointer;
+}
+
+/* Desktops */
+@media only screen and (min-width : 769px) {
+  .psap_no_desktop{display:none !important;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+  .psap_no_tablet{display:none !important;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .psap_no_mobile{display:none !important;}
+}

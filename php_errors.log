@@ -1,0 +1,41 @@
+[14-Aug-2018 22:41:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'basic_theme_test_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[14-Aug-2018 22:41:02 UTC] PHP Stack trace:
+[14-Aug-2018 22:41:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/themes.php:0
+[14-Aug-2018 22:41:02 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/themes.php:10
+[14-Aug-2018 22:41:02 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[14-Aug-2018 22:41:02 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Aug-2018 22:41:02 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Aug-2018 22:41:02 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[14-Aug-2018 22:41:02 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[14-Aug-2018 22:41:02 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[14-Aug-2018 22:41:02 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[14-Aug-2018 22:41:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'basic_theme_test_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[14-Aug-2018 22:41:03 UTC] PHP Stack trace:
+[14-Aug-2018 22:41:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[14-Aug-2018 22:41:03 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[14-Aug-2018 22:41:03 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Aug-2018 22:41:03 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Aug-2018 22:41:03 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[14-Aug-2018 22:41:03 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[14-Aug-2018 22:41:03 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[14-Aug-2018 22:41:03 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[14-Aug-2018 22:42:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'basic_theme_test_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[14-Aug-2018 22:42:04 UTC] PHP Stack trace:
+[14-Aug-2018 22:42:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[14-Aug-2018 22:42:04 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[14-Aug-2018 22:42:04 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Aug-2018 22:42:04 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Aug-2018 22:42:04 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[14-Aug-2018 22:42:04 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[14-Aug-2018 22:42:04 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[14-Aug-2018 22:42:04 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286
+[14-Aug-2018 22:44:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'basic_theme_test_setup' not found or invalid function name in /home/ubuntu/workspace/wp-includes/class-wp-hook.php on line 286
+[14-Aug-2018 22:44:05 UTC] PHP Stack trace:
+[14-Aug-2018 22:44:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[14-Aug-2018 22:44:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[14-Aug-2018 22:44:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[14-Aug-2018 22:44:05 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[14-Aug-2018 22:44:05 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:450
+[14-Aug-2018 22:44:05 UTC] PHP   6. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[14-Aug-2018 22:44:05 UTC] PHP   7. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:310
+[14-Aug-2018 22:44:05 UTC] PHP   8. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:286}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:286

@@ -1,0 +1,66 @@
+[14-Aug-2018 21:54:34 UTC] PHP Fatal error:  Call to undefined function get_header1() in /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php on line 1
+[14-Aug-2018 21:54:34 UTC] PHP Stack trace:
+[14-Aug-2018 21:54:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php:0
+[14-Aug-2018 21:57:27 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php on line 1
+[14-Aug-2018 21:57:27 UTC] PHP Stack trace:
+[14-Aug-2018 21:57:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php:0
+[14-Aug-2018 21:57:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php on line 1
+[14-Aug-2018 21:57:31 UTC] PHP Stack trace:
+[14-Aug-2018 21:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php:0
+[14-Aug-2018 21:58:18 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php on line 1
+[14-Aug-2018 21:58:18 UTC] PHP Stack trace:
+[14-Aug-2018 21:58:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php:0
+[14-Aug-2018 21:58:22 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php on line 1
+[14-Aug-2018 21:58:22 UTC] PHP Stack trace:
+[14-Aug-2018 21:58:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php:0
+[14-Aug-2018 21:58:34 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php on line 1
+[14-Aug-2018 21:58:34 UTC] PHP Stack trace:
+[14-Aug-2018 21:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index1.php:0
+[14-Aug-2018 22:16:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basicthemebs/index.php on line 1
+[14-Aug-2018 22:16:57 UTC] PHP Stack trace:
+[14-Aug-2018 22:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basicthemebs/index.php:0
+[14-Aug-2018 22:19:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index.php on line 1
+[14-Aug-2018 22:19:44 UTC] PHP Stack trace:
+[14-Aug-2018 22:19:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index.php:0
+[14-Aug-2018 22:20:10 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index.php on line 1
+[14-Aug-2018 22:20:10 UTC] PHP Stack trace:
+[14-Aug-2018 22:20:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index.php:0
+[14-Aug-2018 22:20:12 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index.php on line 1
+[14-Aug-2018 22:20:12 UTC] PHP Stack trace:
+[14-Aug-2018 22:20:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index.php:0
+[14-Aug-2018 22:29:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php on line 1
+[14-Aug-2018 22:29:14 UTC] PHP Stack trace:
+[14-Aug-2018 22:29:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php:0
+[14-Aug-2018 22:32:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php on line 1
+[14-Aug-2018 22:32:51 UTC] PHP Stack trace:
+[14-Aug-2018 22:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php:0
+[14-Aug-2018 22:33:08 UTC] PHP Fatal error:  Call to undefined function get_header2() in /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php on line 1
+[14-Aug-2018 22:33:08 UTC] PHP Stack trace:
+[14-Aug-2018 22:33:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php:0
+[14-Aug-2018 22:33:10 UTC] PHP Fatal error:  Call to undefined function get_header2() in /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php on line 1
+[14-Aug-2018 22:33:10 UTC] PHP Stack trace:
+[14-Aug-2018 22:33:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php:0
+[14-Aug-2018 22:34:22 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index.php on line 1
+[14-Aug-2018 22:34:22 UTC] PHP Stack trace:
+[14-Aug-2018 22:34:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index.php:0
+[14-Aug-2018 22:39:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index.php on line 1
+[14-Aug-2018 22:39:35 UTC] PHP Stack trace:
+[14-Aug-2018 22:39:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index.php:0
+[14-Aug-2018 22:39:37 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index.php on line 1
+[14-Aug-2018 22:39:37 UTC] PHP Stack trace:
+[14-Aug-2018 22:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index.php:0
+[14-Aug-2018 22:39:55 UTC] PHP Fatal error:  Call to undefined function get_header2() in /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php on line 1
+[14-Aug-2018 22:39:55 UTC] PHP Stack trace:
+[14-Aug-2018 22:39:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php:0
+[14-Aug-2018 22:40:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index.php on line 1
+[14-Aug-2018 22:40:09 UTC] PHP Stack trace:
+[14-Aug-2018 22:40:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index.php:0
+[14-Aug-2018 22:41:20 UTC] PHP Fatal error:  Call to undefined function get_header2() in /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php on line 1
+[14-Aug-2018 22:41:20 UTC] PHP Stack trace:
+[14-Aug-2018 22:41:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basicthemetest/index.php:0
+[14-Aug-2018 22:48:56 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index.php on line 1
+[14-Aug-2018 22:48:56 UTC] PHP Stack trace:
+[14-Aug-2018 22:48:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index.php:0
+[14-Aug-2018 22:49:26 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ubuntu/workspace/wp-content/themes/basictheme/index.php on line 1
+[14-Aug-2018 22:49:26 UTC] PHP Stack trace:
+[14-Aug-2018 22:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-content/themes/basictheme/index.php:0
