@@ -23,18 +23,18 @@
 	?>
 	
 	<body class="m-2" <?php body_class( $basictheme_classes ); ?>>
-<div class="row">
-	<div class='col-12 d-flex justify-content-center mt-3'>
-<h1 class="text-center">JOYCE McCULLOCH</h1>
+<div class="row bg-dark">
+	<div class='col-12 d-flex justify-content-center text-white my-3'>
+<h1 class="text-center display-5">JOYCE McCULLOCH</h1>
 </div>
 </div>
 <div class="row">
 		<div class='col-12 d-flex justify-content-center'>
-<p>VOCALIST</p>
+<p class="my-2">VOCALIST</p>
 </div>
 </div>
 <div class="row">
-<div id="nav-menu" class="col-12 d-none d-md-block justify-content-center text-center">	<?php wp_nav_menu(array('theme_location'=>'primary')); ?></div>
+<div class="col-12 d-none d-md-block justify-content-center text-center">	<?php wp_nav_menu(array('theme_location'=>'primary')); ?></div>
 </div>
 <div class="row">
 	<div class="col-12 d-xs-block d-md-none text-center">
