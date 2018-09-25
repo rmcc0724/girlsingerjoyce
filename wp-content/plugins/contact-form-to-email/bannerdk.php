@@ -12,6 +12,9 @@ if(!function_exists( 'codepeople_add_promotecftedk_banner' ))
 
 		if( empty($codepeople_cftedk_banner_plugins) || !is_admin() ) return;
 
+        $screen = get_current_screen();
+        if ( ($screen->post_type == 'page' || $screen->post_type == 'post') && $screen->base == 'post') return;
+     
 		// Take action over the banner
 		if(isset($_POST['codepeople_cftedk_banner_nonce']) && wp_verify_nonce($_POST['codepeople_cftedk_banner_nonce'], __FILE__))
 		{

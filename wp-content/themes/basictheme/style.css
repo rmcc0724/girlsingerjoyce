@@ -1,3 +1,35 @@
 body {
 font-family: 'Cormorant', serif !important;
 }
+
+@media screen and (max-width: 575px) {
+
+    #mobile-photo {
+        width: 84%;
+width: 150px;
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+        #mobile-photo {
+        max-width: 250px;
+    }
+}
+
+
+
+
+/* For tablet and desktop views */
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px) {
+    #menu-main-navigation li {
+    display: inline;
+}
+}
+
+@media screen and (min-width: 1200px) {
+}

@@ -394,7 +394,9 @@ class CP_ContactFormToEmail extends CP_CFTEMAIL_BaseClass {
         add_options_page($this->plugin_name.' Options', $this->plugin_name, 'manage_options', $this->menu_parameter, array($this, 'settings_page') );
         add_menu_page( $this->plugin_name.' Options', $this->plugin_name, 'edit_pages', $this->menu_parameter, array($this, 'settings_page') );        
         add_submenu_page( $this->menu_parameter, 'Help: Online demo', 'Help: Online demo', 'read', $this->menu_parameter."_demo", array($this, 'settings_page') );       
-        add_submenu_page( $this->menu_parameter, 'Help: Documentation', 'Help: Documentation', 'read', $this->menu_parameter."_docs", array($this, 'settings_page') );       
+        add_submenu_page( $this->menu_parameter, 'Help: Documentation', 'Help: Documentation', 'read', $this->menu_parameter."_docs", array($this, 'settings_page') );  
+        add_submenu_page( $this->menu_parameter, 'Help: Free support', 'Help: Free support', 'read', $this->menu_parameter."_fsupport", array($this, 'settings_page') );         
+       
         add_submenu_page( $this->menu_parameter, 'Upgrade', 'Upgrade', 'edit_pages', $this->menu_parameter."_upgrade", array($this, 'settings_page') );        
     }
 
@@ -433,8 +435,29 @@ class CP_ContactFormToEmail extends CP_CFTEMAIL_BaseClass {
             echo("Redirecting to demo page...<script type='text/javascript'>document.location='https://form2email.dwbooster.com/documentation?open=1';</script>");
             exit;
         } 
+        else if ($this->get_param("page") == $this->menu_parameter.'_fsupport')
+        {
+            echo("Redirecting to demo page...<script type='text/javascript'>document.location='https://wordpress.org/support/plugin/contact-form-to-email#new-post';</script>");
+            exit;
+        }
         else
             @include_once dirname( __FILE__ ) . '/cp-admin-int-list.inc.php';
+    }
+    
+    function gutenberg_block() {
+        if (function_exists('register_block_type'))
+        {
+            wp_register_script(
+                 'cpcfte-step01',
+                 plugins_url( 'js/block.js', __FILE__ ),
+                 array( 'wp-blocks', 'wp-element' )
+             );
+            
+            
+            register_block_type( 'cpcfte/cp-contact-form-to-email-step-01', array(
+                'editor_script' => 'cpcfte-step01',
+            ) );        
+        }
     }
 
 
@@ -739,6 +762,9 @@ class CP_ContactFormToEmail extends CP_CFTEMAIL_BaseClass {
 
     function save_edition()
     {
+        foreach ($_POST as $item => $value)
+            if (!is_array($value))
+                $_POST[$item] = stripcslashes($value);        
         if (substr_count($_POST['editionarea'],"\\\""))
             $_POST["editionarea"] = stripcslashes($_POST["editionarea"]);
         if ($_POST["cfwpp_edit"] == 'js')   

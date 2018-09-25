@@ -454,6 +454,25 @@ When you click a field already added into the contact form builder area, you can
 
 == Changelog ==
 
+
+= 1.2.60 =
+* Gutemberg integration update
+
+= 1.2.59 =
+* Fixed magic quotes issue
+
+= 1.2.58 =
+* Fixed conflict with Gutenberg editor
+
+= 1.2.57 =
+* Fix to Gutenberg integration
+
+= 1.2.56 =
+* New support option
+
+= 1.2.55 =
+* Compatible with Gutenberg
+
 = 1.2.54 =
 * Interface improvements
 
@@ -923,5 +942,5 @@ When you click a field already added into the contact form builder area, you can
 
 == Upgrade Notice ==
 
-= 1.2.54 =
-* Interface improvements
+= 1.2.60 =
+* Gutemberg integration update
