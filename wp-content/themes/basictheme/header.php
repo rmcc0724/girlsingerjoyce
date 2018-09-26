@@ -27,7 +27,7 @@
 	<header class="bg-dark">
 		<div class="row">
 			<div class='col-12 d-flex justify-content-center text-white pt-3'>
-				<h3 class="text-center my-0">Joyce McCulloch</h3>
+				<h3 class="text-center my-0">JOYCE McCULLOCH</h3>
 			</div>
 		</div>
 		<div class="row">
