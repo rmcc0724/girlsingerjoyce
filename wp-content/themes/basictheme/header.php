@@ -23,6 +23,7 @@
 	?>
 
 <body <?php body_class( $basictheme_classes ); ?>>
+	<div class="wrapper m-auto">
 	<header class="bg-dark">
 		<div class="row">
 			<div class='col-12 d-flex justify-content-center text-white pt-3'>
@@ -36,19 +37,19 @@
 		</div>
 			</header>
 		<div class="row">
-			<div class="col-12 d-none d-lg-flex justify-content-center my-1"
+			<div class="col-12 d-none d-lg-flex justify-content-center my-1">
 				<?php wp_nav_menu(array('theme_location'=>'primary')); ?>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-12 d-xs-block d-lg-none text-center">
+		<div class="row d-xs-block d-lg-none">
+			<div class="col-12 text-center">
 				<div class="col-10 col-offset-1 m-auto pt-4">
 					<img id="mobile-photo" class="rounded" style="" src="/wp-content/uploads/2018/07/Joyce_about_mobile-300x300.jpg" alt="Joyce McCulloch" /></p>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-12 d-none d-lg-block">
+		<div class="row d-none d-lg-block">
+			<div class="col-12">
 				<div>
 					<img id="main-photo" class="rounded" src="/wp-content/uploads/2018/06/Joyce_about-200x300.jpg" alt="Joyce McCulloch" /></p>
 				</div>

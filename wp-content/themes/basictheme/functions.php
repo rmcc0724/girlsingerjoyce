@@ -15,6 +15,9 @@ function basic_script_enqueue() {
     wp_enqueue_style('bootstrap-css', get_template_directory_uri() . '/bootstrap-custom.css', array(), '1.0.0', 'all');
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/bootstrap/dist/css/bootstrap.min.css');
     wp_enqueue_script('bootstrap', get_template_directory_uri() . '/bootstrap/dist/js/bootstrap.min.js');
+    wp_enqueue_style('font-awesome', get_template_directory_uri() . '/bootstrap/font-awesome/css/font-awesome.min.css');
+    wp_enqueue_style('bootstrap-social', get_template_directory_uri() . '/bootstrap/bootstrap-social/bootstrap-social.css');
+
 }
 
 // This calls the above function 

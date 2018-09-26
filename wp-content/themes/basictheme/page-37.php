@@ -2,19 +2,22 @@
 
 	<?php 
 	
-/*	if( have_posts() ):
+	if( have_posts() ):
 		
 		while( have_posts() ): the_post(); ?>
-		
-			<h3><?php the_title(); ?></h3>
-			 <div id="wrapper">
-			<p><?php the_content(); ?></p>
-
+		<div class="row">
+			<div class="col-12">
+			<h3 class="px-4"><?php the_title(); ?></h3>
+	</div>	</div>
+			<div class="row">
+				<div class="col-12">
+			<?php the_content(); ?>
+	</div>	</div>
 
 		<?php endwhile;
 		
 	endif;
 			
-*/	?>
+	?>
 
 <?php get_footer(); ?> 
