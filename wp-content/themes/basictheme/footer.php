@@ -1,3 +1,4 @@
+	</div>
 <footer>
 	    <div class="row">
 	        <div class="col-12 d-flex justify-content-center py-2 bg-secondary">

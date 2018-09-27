@@ -23,7 +23,7 @@
 	?>
 
 <body <?php body_class( $basictheme_classes ); ?>>
-	<div class="wrapper m-auto">
+							<div class="wrapper">
 	<header class="bg-dark">
 		<div class="row">
 			<div class='col-12 d-flex justify-content-center text-white pt-3'>
@@ -37,7 +37,7 @@
 		</div>
 			</header>
 		<div class="row">
-			<div class="col-12 d-none d-lg-flex justify-content-center my-1">
+			<div class="col-12 d-none d-lg-flex justify-content-center my-1 pt-2">
 				<?php wp_nav_menu(array('theme_location'=>'primary')); ?>
 			</div>
 		</div>
@@ -55,3 +55,4 @@
 				</div>
 			</div>
 		</div>
+
