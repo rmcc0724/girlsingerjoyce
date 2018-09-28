@@ -1,40 +1,45 @@
 html,
-body {
-    background-color: transparent;
-}
 
 body {
     /*height: 100%;*/
     margin: 0 auto !important;
-    max-width: 940px;
 }
 
 header {
     font-family: 'Cormorant Unicase', serif;
 }
 
-.wrapper {
+.bg-photo {
     background-image: url(/wp-content/themes/basictheme/images/Piano_mobile.jpg) !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
 }
 
+.wrapper {
+    max-width: 940px;
+}
+
 .row {
     margin: 0 !important;
 }
 
+
 .bio {
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 1.5em;
 }
+
+.bio-wrap {
+    padding-bottom: 15em;
+}
+
 #menu-main-navigation {
     word-spacing: 1em;
 }
 
 #menu-main-navigation li a {
     color: white !important;
-    
+
 }
 
 footer li {
@@ -63,14 +68,15 @@ footer li {
     #menu-main-navigation li {
         display: inline;
     }
-    
-    .bio {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 1em;
-}
-}
 
+    .bg-photo {
+        background-image: url(/wp-content/themes/basictheme/images/piano.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+    }
 
+}
 
 @media screen and (min-width: 992px) {}
 

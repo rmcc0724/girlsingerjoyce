@@ -5,12 +5,7 @@
 	if( have_posts() ):
 		
 		while( have_posts() ): the_post(); ?>
-  
-  
-
-           <div class="px-4">
             <?php the_content(); ?>
-           </div>
      </div>
 </div>
 
@@ -27,8 +22,6 @@
             <?php the_content(); ?>
         </div>
     </div>
-</div>
-
 <?php endwhile;
 		
 	endif;
