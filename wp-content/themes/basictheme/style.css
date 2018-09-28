@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     background-color: transparent;
 }
 
@@ -23,8 +24,17 @@ header {
     margin: 0 !important;
 }
 
-ul#menu-main-navigation li a {
+.bio {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1.5em;
+}
+#menu-main-navigation {
+    word-spacing: 1em;
+}
+
+#menu-main-navigation li a {
     color: white !important;
+    
 }
 
 footer li {
@@ -49,12 +59,19 @@ footer li {
 
 /* For tablet and desktop views */
 
-@media screen and (min-width: 768px) {}
-
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     #menu-main-navigation li {
         display: inline;
     }
+    
+    .bio {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
 }
+}
+
+
+
+@media screen and (min-width: 992px) {}
 
 @media screen and (min-width: 1200px) {}

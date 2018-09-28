@@ -6,10 +6,7 @@
 		
 		while( have_posts() ): the_post(); ?>
   
-                  <div class="col-10">
-            <?php the_content(); ?>
-           </div>
-
+  
     <div class="row d-xs-block d-md-none">
         <div class="col-12">
 
@@ -23,16 +20,17 @@
             <?php the_content(); ?>
         </div>
     </div>
+</div>
 
 
 
-           
-           
+
+            <?php the_content(); ?>
     </div>
 </div>
 
 
-</div>
+
 
 <?php endwhile;
 		

@@ -6,7 +6,7 @@
                 <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope text-white"></i></a>
         </div>
     </div>
-    <div class="row d-none d-md-flex">
+    <div class="menu-footer-links-container text-right">
         <div class="col-12">
             <?php wp_nav_menu(array('theme_location'=>'footer')); ?>
         </div>
