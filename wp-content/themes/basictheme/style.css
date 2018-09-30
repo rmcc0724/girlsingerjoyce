@@ -1,4 +1,6 @@
-html,
+html {
+    background-color: white !important;
+}
 
 body {
     /*height: 100%;*/
@@ -25,13 +27,12 @@ header {
 }
 
 
-.bio {
-    background-color: rgba(0, 0, 0, 0.7);
+.bio-wrap {
+    padding-bottom: 1.7em;
 }
 
-.bio-wrap {
-    padding-bottom: 15em;
-}
+
+
 
 #menu-main-navigation {
     word-spacing: 1em;
@@ -42,6 +43,25 @@ header {
 
 }
 
+.menu-footer-links-container {
+    word-spacing: 1em;
+    padding-top: .5em;
+    font-size: .8em;
+    max-width: 840px;
+    margin: 0 auto;
+
+}
+
+#menu-footer-links li a {
+    color: black !important;
+}
+
+footer {
+
+    background-color: #cccccc;
+
+}
+
 footer li {
     display: inline;
 }
@@ -49,11 +69,17 @@ footer li {
 @media screen and (max-width: 575px) {
 
     #mobile-photo {
-        width: 84%;
         width: 150px;
+    }
+    .bio {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 1.4em;
+        margin: 0 1em;
     }
 
 }
+
+
 
 @media screen and (min-width: 576px) {
     #mobile-photo {
@@ -61,12 +87,22 @@ footer li {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .bio-wrap p {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 1em;
+    }
+}
 
 /* For tablet and desktop views */
 
 @media screen and (min-width: 768px) {
     #menu-main-navigation li {
         display: inline;
+    }
+    .bio {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 3em;
     }
 
     .bg-photo {
@@ -76,6 +112,10 @@ footer li {
         background-attachment: scroll;
     }
 
+    footer {
+
+        background-color: white;
+    }
 }
 
 @media screen and (min-width: 992px) {}

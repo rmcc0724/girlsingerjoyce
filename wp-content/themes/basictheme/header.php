@@ -21,32 +21,35 @@
 	?>
 
 <body <?php body_class( $basictheme_classes ); ?>>
-        <header class="bg-dark">
-            <div class="row">
-                <div class='col-12 d-flex justify-content-center text-white pt-3'>
-                    <h2 class="text-center my-0">JOYCE McCULLOCH</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class='col-12 d-flex justify-content-center text-white pt-2'>
-                    <p>VOCALIST</p>
-                </div>
-            </div>
-        </header>
-                <div class="bg-photo">
+    <header class="bg-dark">
         <div class="row">
-            <div class="d-none d-md-flex col-12 justify-content-center my-1 pt-4">
-                <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
+            <div class='col-12 d-flex justify-content-center text-white pt-3'>
+                <h2 class="text-center my-0">JOYCE McCULLOCH</h2>
             </div>
         </div>
-            <div class="wrapper m-auto">
-        <div class="row d-xs-block d-md-none">
-            <div class="col-12 m-auto pt-4 text-center">
-                <img id="mobile-photo" class="rounded" style="" src="/wp-content/uploads/2018/07/Joyce_about_mobile-300x300.jpg" alt="Joyce McCulloch" />
+        <div class="row">
+            <div class='col-12 d-flex justify-content-center text-white pt-2'>
+                <p>VOCALIST</p>
             </div>
         </div>
-        <div class="row d-none d-md-block px-5 pt-3 bio-wrap">
-            <div class="bio p-5">
+    </header>
+
+    <div class="bg-photo">
+        
+            <div class="row">
+                <div class="d-none d-md-flex col-12 justify-content-center my-1 pt-1">
+                    <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
+                </div>
+            </div>
+       
+    <div class="wrapper m-auto">
+            
+            <div class="row d-xs-block d-md-none">
+                <div class="col-12 m-auto pt-4 text-center">
+                    <img id="mobile-photo" class="rounded" style="" src="/wp-content/uploads/2018/07/Joyce_about_mobile-300x300.jpg" alt="Joyce McCulloch" />
+                </div>
+            </div>
+            
+            <div class="row d-none d-md-block px-5 bio-wrap">
+                <div class="bio p-5">
                     <img id="main-photo" class="rounded float-left pr-3 pt-2" src="/wp-content/uploads/2018/06/Joyce_about-200x300.jpg" alt="Joyce McCulloch" />
-
-
