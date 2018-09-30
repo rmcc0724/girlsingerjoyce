@@ -10,7 +10,7 @@
 </div>
     <div class="row d-xs-block d-md-none">
         <div class="col-12">
-            <h3 class="px-4">
+            <h3 class="text-white">
                 <?php the_title(); ?>
             </h3>
         </div>

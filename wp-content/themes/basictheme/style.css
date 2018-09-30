@@ -28,7 +28,7 @@ header {
 
 
 .bio-wrap {
-    padding-bottom: 1.7em;
+    padding-bottom: 2em;
 }
 
 
@@ -113,7 +113,6 @@ footer li {
     }
 
     footer {
-
         background-color: white;
     }
 }
